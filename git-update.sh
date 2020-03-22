@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/pi/glimpse-cam/
+cd /home/pi/glimpse-cam-v2/
 
 set -e
 
@@ -23,6 +23,6 @@ else
     git rebase --preserve-merges --stat $remote_branch
 fi
 
-sudo cp /home/pi/glimpse-cam/pikrellcam.conf /home/pi/.pikrellcam/pikrellcam.conf
+sudo cp /home/pi/glimpse-cam-v2/pikrellcam.conf /home/pi/.pikrellcam/pikrellcam.conf
 
 cd /home/pi/
