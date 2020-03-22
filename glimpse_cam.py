@@ -131,7 +131,7 @@ def setupLogger():
     global LOGGER
     logFormat='[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s'
     logging.basicConfig(
-            filename="glimpseLog.log",
+            filename="glimpse-log.log",
             level=logging.DEBUG,
             format=logFormat
     )
